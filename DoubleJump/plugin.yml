@@ -1,0 +1,26 @@
+name: DoubleJump
+description: Double Jump Plugin.
+version: 1.0
+
+main: me.azewilous.doublejump.DoubleJump
+
+commands:
+   djtoggle:
+     description: Toggles Double Jump Off or On.
+   djreload: 
+     description: Reloads The Plugin.
+     usage: /<djreload>
+
+permissions:
+   dj.launch:
+     description: Permissions To Double Jump/ The Toggle For Flight Event Permission
+     default: false
+   dj.launched:
+     description: Permission To Allow Flight When Double Jumping.
+     default: false
+   dj.toggle:
+     description: Permission To Toggle DoubleJump On.
+     default: false
+   dj.reload:
+     description: Reloads The Plugin.
+     default: false
