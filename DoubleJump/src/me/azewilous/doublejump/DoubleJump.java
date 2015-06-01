@@ -21,15 +21,15 @@ public class DoubleJump extends JavaPlugin implements Listener {
 	
 	Plugin plugin;
 	FileConfiguration config;
-    File cFile;
+    	File cFile;
 	
     List<String> djtoggle = new ArrayList<String>();
     
 	@Override
 	public void onEnable(){
-		PluginDescriptionFile pdfFile = this.getDescription();
+	PluginDescriptionFile pdfFile = this.getDescription();
         this.azelogs.info(pdfFile.getName() + " Version " + pdfFile.getVersion());
-		  getServer().getPluginManager().registerEvents(this, this);
+	getServer().getPluginManager().registerEvents(this, this);
 		
 		reloadConfig();
 		config = getConfig();
